@@ -1,0 +1,44 @@
+.follower-card {
+    width: 90%;
+    max-width: 1100px;
+    height: 400px;
+    border: 2px solid slategray;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(180, 180, 180, 0.5);
+    margin: 20px;
+}
+
+.follower-image {
+    display: flex;
+    justify-content: center;
+}
+
+.follower-image img {
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+}
+
+.follower-description {
+    padding-left: 30px;
+    border-left: 1px dashed gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.follower-description h2 {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.follower-description p {
+    font-size: 24px;
+    margin: 0;
+}
